@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-export const GlobalStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
     *, *::before, *::after {
         margin: 0;
         padding: 0;
@@ -11,3 +11,5 @@ export const GlobalStyles = createGlobalStyle`
         outline: none;
     }
 `;
+
+exports default GlobalStyles;
